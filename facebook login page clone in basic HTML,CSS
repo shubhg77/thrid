@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" href="favicon.PNG" type="image/png">
+    <title>Facebook - log in or sign up</title>
+</head>
+<body class="bg bg-gray-300">
+    <div class="container mt-48 flex mx-auto items-center justify-center">
+    <div class="left w-1/2 mx-14">
+        <img class="w-60" src="fb.svg" alt="">
+        <p class="text-3xl mx-6">Facebook लोगों से जुड़ने और शेयर करने में आपकी मदद करता है.</p>
+    </div>
+    <div class="right flex flex-col bg-white p-9 rounded-lg w-1/4 relative">
+        <input class="px-4 h-12 my-2 border border-1 outline-blue-600 border-gray-200 rounded-lg" type="text" placeholder="Email address or phone number">
+        <input class="px-4 h-12 my-2 border border-1 outline-blue-600 border-gray-200 rounded-lg" type="password" placeholder="password">
+        <button class=" bg-blue-600 hover:bg-blue-800 text-white my-2 py-3 rounded-md font-bold ">Log in</button>
+        <span class="text-blue-600 text-center text-sm my-2 cursor-pointer hover:underline">Forgotten password</span>
+        <hr class="my-2">
+        <button class=" bg-green-600 hover:bg-green-700 text-white my-2 py-3 mx-auto px-4 rounded-md font-bold w-fit">Create New Account</button>
+        <span class="absolute -bottom-12 text-sm font-bold"><span class="font-blod hover:underline cursor-pointer">एक पेज बनाएँ.> </span>किसी सेलिब्रिटी, ब्रांड या बिज़नेस के लिए</span>
+    </div>
+</div>
+</body>
+</html> 
